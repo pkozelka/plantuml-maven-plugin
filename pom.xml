@@ -81,6 +81,11 @@
             <goals>
               <goal>check</goal>
             </goals>
+            <configuration>
+              <excludes combine.children="append">
+                <exclude>.idea/**</exclude>
+              </excludes>
+            </configuration>
           </execution>
         </executions>
       </plugin>
